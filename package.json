@@ -1,0 +1,43 @@
+{
+  "name": "eumenides-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh",
+    "nav": "vuepress nav docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyc1lyf/Eumenides-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyc1lyf/Eumenides-blog/issues"
+  },
+  "homepage": "https://github.com/dyc1lyf/Eumenides-blog#readme",
+  "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "stylus-loader": "^3.0.2",
+    "vue-canvas-effect": "0.0.12",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-auto-sidebar": "^2.2.2",
+    "vuepress-plugin-container": "^2.1.5",
+    "vuepress-theme-reco": "^1.6.6"
+  },
+  "dependencies": {
+    "@vssue/vuepress-plugin-vssue": "^1.4.7",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "github:vuepress-reco/vuepress-plugin-kan-ban-niang",
+    "leancloud-storage": "^4.10.1",
+    "less-loader": "^5.0.0",
+    "moment": "^2.29.1",
+    "stylus": "^0.54.8",
+    "vue-canvas-effect": "0.0.12",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3"
+  }
+}
