@@ -1,22 +1,22 @@
 # 编译脚本 buildScript.sh
 
-logUpdatePath="buildScript.sh"
+# logUpdatePath="buildScript.sh"
 
-logBuildPath="docs/.vuepress/dist"
+# logBuildPath="docs/.vuepress/dist"
 
 # 更新依赖
 
 logDate=$(date +"%Y-%m-%d-%H-%M")
 
-if [ ! -d "$logUpdatePath" ]; then
+# if [ ! -d "$logUpdatePath" ]; then
 
-mkdir -p $logUpdatePath
+# mkdir -p $logUpdatePath
 
-fi
+# fi
 
-if [ ! -d "$logBuildPath" ]; then
+# if [ ! -d "$logBuildPath" ]; then
 
-mkdir -p $logBuildPath
+# mkdir -p $logBuildPath
 
 fi
 
