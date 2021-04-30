@@ -1,8 +1,8 @@
 # 编译脚本 buildScript.sh
 
-logUpdatePath="log/update"
+logUpdatePath="buildScript.sh"
 
-logBuildPath="log/build"
+logBuildPath="docs/.vuepress/dist"
 
 # 更新依赖
 
