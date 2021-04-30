@@ -5,7 +5,7 @@
 # logBuildPath="docs/.vuepress/dist"
 
 # 更新依赖
-
+echo "进入脚本"
 logDate=$(date +"%Y-%m-%d-%H-%M")
 
 # if [ ! -d "$logUpdatePath" ]; then
