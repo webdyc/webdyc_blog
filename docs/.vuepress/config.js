@@ -63,6 +63,11 @@ module.exports = {
       }
     },
     themeConfig: {
+      // 备案
+      record: '京ICP备2021014074号',
+      recordLink: 'https://beian.miit.gov.cn/',
+      // 项目开始时间，只填写年份
+      startYear: '2017',
       codeTheme: 'tomorrow', // default 'tomorrow'
       // 导航栏左侧可以显示logo, 需要以下配置
       logo:'https://webdyc.oss-cn-beijing.aliyuncs.com/blog/hero.jpg',
