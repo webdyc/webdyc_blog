@@ -18,8 +18,6 @@ logDate=$(date +"%Y-%m-%d-%H-%M")
 
 # mkdir -p $logBuildPath
 
-fi
-
 echo "更新依赖"
 
 npm install
