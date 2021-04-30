@@ -14,6 +14,6 @@ npm run build
 
 echo "设置权限"
 
-chown -R www:www dist/[^.]*
+chown -R www:www docs/.vuepress/dist/[^.]*
 
 echo "运行结束"
