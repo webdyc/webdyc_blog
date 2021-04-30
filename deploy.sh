@@ -17,7 +17,7 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://dyc1lyf.github.io
-git push -f https://github.com/dyc1lyf/dyc1lyf.github.io.git master
+git push -f git@github.com:webdyc/webdyc_blog.git master
 
 # 如果发布到 https://dyc1lyf.github.io/<REPO>
 # git push -f git@github.com:dyc1lyf/<REPO>.git master:gh-pages
