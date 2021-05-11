@@ -3,7 +3,7 @@ const nav = require("./nav.js");
 
 module.exports = {
     theme: 'reco',
-    title: 'Eumenides',
+    title: 'webdyc',
     description: 'Alle Vorurteilekommen aus den Eingeweiden.',
     base: '/',
     head: [
@@ -104,14 +104,14 @@ module.exports = {
       nav,
       // 博客配置
       blogConfig: {
-        // category: {
-        //   location: 2,     // 在导航栏菜单中所占的位置，默认2
-        //   text: '分类' // 默认文案 “分类”
-        // },
-        // tag: {
-        //   location: 3,     // 在导航栏菜单中所占的位置，默认3
-        //   text: '标签'      // 默认文案 “标签”
-        // },
+        category: {
+          location: 2,     // 在导航栏菜单中所占的位置，默认2
+          text: '分类' // 默认文案 “分类”
+        },
+        tag: {
+          location: 3,     // 在导航栏菜单中所占的位置，默认3
+          text: '标签'      // 默认文案 “标签”
+        },
         socialLinks: [     // 信息栏展示社交信息
           { icon: 'reco-github', link: 'https://github.com/dyc1lyf' },
           { icon: 'reco-npm', link: 'https://www.npmjs.com/~reco_luan' }
@@ -139,6 +139,7 @@ module.exports = {
       valineConfig: {
         appId: 'nNCyIYGMSo8i0vXetinlVapa-gzGzoHsz',// your appId
         appKey: 'YE9cPoAypOVrXrBQkz8K7pMq', // your appKey
+        showComment: false
       }
       
     },

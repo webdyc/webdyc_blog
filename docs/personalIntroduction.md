@@ -1,11 +1,8 @@
 ---
-autoIgnore: true
 title: 个人介绍
-categories:
- - 散文
-tags:
- - 散文
-sidebar: 'false'
+date: 1993-10-25
+sidebar: false
+subSidebar: false
 ---
 一个前端。目前就职于北京某互联网公司。
 
