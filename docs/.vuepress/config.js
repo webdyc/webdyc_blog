@@ -114,7 +114,8 @@ module.exports = {
         },
         socialLinks: [     // 信息栏展示社交信息
           { icon: 'reco-github', link: 'https://github.com/dyc1lyf' },
-          { icon: 'reco-npm', link: 'https://www.npmjs.com/~reco_luan' }
+          { icon: 'reco-npm', link: 'https://www.npmjs.com/~reco_luan' },
+          { icon: 'reco-bilibili', link: 'https://www.npmjs.com/~reco_luan' }
         ]
       },
       // 修改默认语言配置
